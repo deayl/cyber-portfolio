@@ -341,20 +341,20 @@ print(m)`,
 
 const certificates = [
   {
-    title: "Cybersecurity Essentials",
-    issuer: "Cisco / Course Provider",
-    date: "2026",
-    link: "#",
-  },
-  {
-    title: "TryHackMe Pre Security",
-    issuer: "TryHackMe",
+    title: "Certified Ethical Hacker (CEH)",
+    issuer: "EC-Council",
     date: "Ongoing",
     link: "#",
   },
   {
     title: "Google Cybersecurity Certificate",
     issuer: "Google",
+    date: "Ongoing",
+    link: "#",
+  },
+  {
+    title: "Practical Junior Penetration Tester (PJPT)",
+    issuer: "TCM Security",
     date: "Planned",
     link: "#",
   },
@@ -1536,8 +1536,7 @@ function Footer() {
   return (
     <footer className="border-t border-white/10 px-4 py-8 text-center sm:px-6 lg:px-8">
       <p className="font-mono text-sm text-slate-500">
-        © {new Date().getFullYear()} {personalInfo.name}. Built with a
-        Linux-inspired security theme.
+        © {new Date().getFullYear()} {personalInfo.name}. Built with passion and dedication.
       </p>
     </footer>
   );
